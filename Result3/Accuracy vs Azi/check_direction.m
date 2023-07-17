@@ -5,7 +5,7 @@ clc
 
 load('C:\Users\12811\Desktop\BF+HRTF\NeuroModel3\neuro_datasheet.mat')
 [audio,Fs] = audioread('noise.wav');
-[noise,~] = audioread('backnoise_snr-14.wav');
+[back_noise,~] = audioread('backnoise_snr-12.wav');
 %[audio,Fs] = audioread('handel.wav');
 
 time_period = 0.015;%calculate period 15ms
